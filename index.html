@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Apple Online Store</title>
+    <link rel="icon" href="img/logo.svg">
+</head>
+<body>
+    <header>
+        <a href="https://www.apple.com/es/"><svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+            <path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path></svg></a>
+        <nav>
+        <ul class="nav-bar">
+            <li><a href="https://www.apple.com/es/store">Tienda</a></li>
+            <li><a href="https://www.apple.com/es/mac/">Mac</a></li>
+            <li><a href="https://www.apple.com/es/ipad/">iPad</a></li>
+            <li><a href="https://www.apple.com/es/iphone/">iPhone</a></li>
+            <li><a href="https://www.apple.com/es/watch/">Watch</a></li>
+            <li><a href="https://www.apple.com/es/airpods/">AirPods</a></li>
+            <li><a href="https://www.apple.com/es/tv-home/">TV y Casa</a></li>
+            <li><a href="https://www.apple.com/es/services/">Entretenimiento</a></li>
+            <li><a href="https://www.apple.com/es/shop/accessories/all">Accesorios</a></li>
+            <li><a href="https://www.apple.com/es/support/">Soporte</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
+                <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path></svg>
+            </li>
+            <li><svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+                <path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg>
+            </li>
+        </ul>
+        </nav>
+        <img src="img/menu.png" alt="menu" class="menu">
+    </header>
+    <main>
+        <section id="hero">
+            <div class="info-left">
+                <h1><span>Tienda.</span> La mejor forma de comprar tus productos favoritos.</h1>
+            </div>
+            <div class="info-right">
+                <div class="info-right1">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-chat-specialist-icon-202309_AV4?wid=70&hei=70&fmt=jpeg&qlt=90&.v=1701194050329" width="40px">
+                    <div class="info-right1-text">
+                        <div class="info-right1-title">¿Necesitas ayuda con tu compra?</div>
+                        <a class="info-right1-content" href="https://www.apple.com/es/store?afid=p238%7CsqBqp3TiI-dc_mtid_187079nc38483_pcrid_674906333249_pgrid_16626051515_pntwk_g_pchan__pexid__ptid_kwd-10778630_&cid=aos-es-kwgo-brand--slid--bran-product-#">Habla con nuestros Especialistas > </a>
+                    </div>
+                </div>
+                <div class="info-right2">
+                    <svg width="25" height="35" viewBox="0 0 25 35" class="dd-glyph-svg dd-glyph-base" aria-hidden="true">
+                        <path d="m0 0h25v35h-25z" fill="none"></path>
+                        <path d="m12.4934 4.675a10.5617 10.5617 0 0 1 4.177.8275 10.8868 10.8868 0 0 1 5.7467 5.747 10.4988 10.4988 0 0 1 .8329 4.1777 10.3219 10.3219 0 0 1 -.6421 3.5951 10.8948 10.8948 0 0 1 -1.8669 3.2062 12.8406 12.8406 0 0 1 -2.9537 2.5775c-.984.6179-1.8226 1.1843-2.4931 1.6839a9.5187 9.5187 0 0 0 -1.7742 1.6788 6.8587 6.8587 0 0 0 -1.02 1.8034 6.8213 6.8213 0 0 0 -1.0278-1.8062 9.8247 9.8247 0 0 0 -1.7708-1.6742c-.6644-.4987-1.5014-1.0658-2.485-1.6834a12.5961 12.5961 0 0 1 -2.9617-2.5777 10.99 10.99 0 0 1 -1.8636-3.2083 10.3421 10.3421 0 0 1 -.6411-3.5951 10.5153 10.5153 0 0 1 .8319-4.1772 10.9669 10.9669 0 0 1 2.3209-3.4333 10.85 10.85 0 0 1 3.4278-2.3142 10.52 10.52 0 0 1 4.1628-.8275m0-1a11.4634 11.4634 0 0 0 -4.5561.9081 11.89 11.89 0 0 0 -6.2738 6.2709 11.4566 11.4566 0 0 0 -.9135 4.5732 11.2871 11.2871 0 0 0 .703 3.9416 11.9349 11.9349 0 0 0 2.0323 3.5006 13.5349 13.5349 0 0 0 3.1956 2.7835q1.446.9079 2.42 1.6384a8.7962 8.7962 0 0 1 1.5912 1.5 5.9225 5.9225 0 0 1 .9731 1.81q.25.7236.8285.7238t.8417-.7238a5.9779 5.9779 0 0 1 .967-1.81 8.4991 8.4991 0 0 1 1.59-1.5q.98-.73 2.4268-1.6384a13.7877 13.7877 0 0 0 3.19-2.7835 11.8367 11.8367 0 0 0 2.0373-3.5006 11.263 11.263 0 0 0 .7041-3.9416 11.44 11.44 0 0 0 -.9145-4.5732 11.8867 11.8867 0 0 0 -6.2717-6.2709 11.5044 11.5044 0 0 0 -4.57-.9081zm3.8566 9.71a2.3254 2.3254 0 0 0 -1.078 1.94 2.2152 2.2152 0 0 0 1.353 2.0506 4.7326 4.7326 0 0 1 -.693 1.4443c-.429.6174-.902 1.2458-1.584 1.2458-.693 0-.858-.4079-1.661-.4079-.77 0-1.045.4189-1.672.4189-.638 0-1.078-.5733-1.584-1.29a6.3114 6.3114 0 0 1 -1.056-3.3625 2.7185 2.7185 0 0 1 2.541-3.0208c.682 0 1.232.441 1.65.441.407 0 1.023-.4631 1.782-.4631a2.3483 2.3483 0 0 1 2.002 1.0036zm-3.729-1.1135c-.055 0-.099-.0111-.143-.0111 0-.033-.011-.11-.011-.1874a2.26 2.26 0 0 1 .561-1.3781 2.19 2.19 0 0 1 1.485-.7717 1.0735 1.0735 0 0 1 .011.1984 2.3284 2.3284 0 0 1 -.528 1.4222 1.9664 1.9664 0 0 1 -1.375.7276z"></path>
+                      </svg>
+                    <div class="info-right2-text">
+                        <div class="info-right2-title">Pásate por un Apple Store</div>
+                        <a class="info-right2-content" href="https://www.apple.com/es/retail">Busca uno cerca de ti > </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <ul class="products" style="overflow-x:scroll">
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=400&hei=260&fmt=png-alpha&.v=1696964122666" width="110">
+                <a href="https://www.apple.com/es/shop/buy-mac"><p>Mac</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=400&hei=260&fmt=png-alpha&.v=1692971740071" width="100">
+                <a href="https://www.apple.com/es/shop/buy-iphone"><p>iPhone</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=1714168620875" width="110">
+                <a href="https://www.apple.com/es/shop/buy-ipad"><p>iPad</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_ES?wid=400&hei=260&fmt=png-alpha&.v=1693703810563" width="110">
+                <a href="https://www.apple.com/es/shop/buy-watch"><p>Apple Watch</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&hei=260&fmt=png-alpha&.v=1660676485885" width="110">
+                <a href="https://www.apple.com/es/airpods"><p>AirPods</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&hei=260&fmt=png-alpha&.v=1625783380000" width="110">
+                <a href="https://www.apple.com/es/shop/accessories/all/airtag"><p>AirTag</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664628458484" width="110">
+                <a href="https://www.apple.com/es/shop/tv"><p>Apple TV 4K</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=1670389216654" width="110">
+                <a href="https://www.apple.com/es/shop/homepod"><p>HomePod</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202403?wid=400&hei=260&fmt=png-alpha&.v=1707850611597" width="110">
+                <a href="https://www.apple.com/es/shop/accessories/all"><p>Accesorios</p></a></li>
+                <li><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-holiday-giftcards-asc-nav-202111_GEO_EMEA?wid=400&hei=260&fmt=png-alpha&.v=1656543286055" width="110">
+                <a href="https://www.apple.com/es/shop/gift-cards"><p>Apple Gift Card</p></a></li>
+            </ul>
+    </main>
+    <section id="content1">
+        <h2><span>Lo último.</span> Echa un vistazo a las novedades.</h2>
+        <div class="content1-list" style="overflow-x: scroll;">
+            <a id="content1-list1" href="https://www.apple.com/es/shop/buy-iphone/iphone-15-pro">
+                <h5>IPHONE 15 PRO</h5>
+                <h2>Titanio</h2>
+                <p>Desde 50,79 €/mes al 0 % TAE1 o desde 1.219,00 € sin renovación</p>
+            </a>
+            <a id="content1-list2" href="https://www.apple.com/es/shop/buy-ipad/ipad-pro">
+                <h5>IPAD PRO</h5>
+                <h2>In finito.</h2>
+                <p>Desde 1.199 €</p>
+            </a>
+            <a id="content1-list3" href="https://www.apple.com/es/shop/browse/home/education_routing">
+                <h5>POR TIEMPO LIMITADO</h5>
+                <h2>Ahorra en un Mac o iPad para la universidad</h2>
+                <p>Y llévate una tarjeta regalo e hasta 140€, ahorra un 20%en Apple Care+ y más. </p>
+            </a>
+            <a id="content1-list4" href="https://www.apple.com/es/shop/buy-ipad/ipad-air">
+                <h5>IPAD AIR</h5>
+                <h2>Aire fresco.</h2>
+                <p>Desde 699€</p>
+            </a>
+            <a id="content1-list5" href="https://www.apple.com/es/shop/product/MX2D3ZM/A/apple-pencil-pro">
+                <h5>APPLE PENCIL PRO</h5>
+                <h2>Diseñado para crear sin limites.</h2>
+                <p>149€</p>
+            </a>
+            <a id="content1-list6" href="https://www.apple.com/es/shop/buy-watch/apple-watch">
+                <h5>APPLE WATCHSERIES 9</h5>
+                <h2>Una mente más brillante.</h2>
+                <p>Desde 449€</p>
+            </a>
+            <a id="content1-list7" href="https://www.apple.com/es/shop/buy-iphone/iphone-15">
+                <h5>IPHONE 15</h5>
+                <h2>Vente arriba.</h2>
+                <p>Desde 39,96 €/mes al 0 % TAE1 o desde 959,00 € sin renovación</p>
+            </a>
+            <a id="content1-list8" href="https://www.apple.com/es/shop/buy-watch/apple-watch-ultra">
+                <h5>APPLE WATCH ULTRA 2</h5>
+                <h2>La aventura continúa.</h2>
+                <p>Desde 899€</p>
+            </a>
+            <a id="content1-list9" href="https://www.apple.com/es/shop/buy-mac/macbook-pro">
+                <h5>MACBOOK PRO</h5>
+                <h2>Una belleza salvaje.</h2>
+                <p>Desde 2.029€</p>
+            </a>
+            <a id="content1-list10" href="https://www.apple.com/es/shop/buy-watch/apple-watch-se">
+                <h5>APPLE WATCH SE</h5>
+                <h2>Mucho más al alcance de tu muñeca.</h2>
+                <p>Desde 279€</p>
+            </a>
+        </div>
+    </section>
+    <section id="content2">
+        <h2><span>Te ayudamos.</span> Cuando, como y donde quieras.</h2>
+        <div class="content2-list" style="overflow-x: scroll;">
+            <div id="content2-list1">
+                <h6>ESPECIALISTA DE APPLE</h6>
+                <h2>Compra con ayuda de un Especialista. Online o en la tienda </h2>
+            </div>
+            <div id="content2-list2">
+                <h6>TODAY AT APPLE</h6>
+                <h2>Equípate para las clases.</h2>
+                <p>Vuelve a clase con el Mac y el iPad. Participa en sesiones gratuitas en el Apple Store.</p>
+            </div>
+            <div id="content2-list3">
+                <h2>Configura tu nuevo dispositivo en una sesión online personalizada y gratuita.</h2>
+            </div>
+            <div id="content2-list4">
+                <h2>Asistencia técnica <br> y reparaciones <br> cualificadas en el <br> Genius Bar.</h2>
+            </div>
+        </div>
+    </section>
+    <section id="content3">
+        <h2><span>El Apple Store marca la diferencia.</span> Aún más razones para comprar con nosotros.</h2>
+        <div class="content3-list" style="overflow-x: scroll;">
+            <div id="content3-list1">
+                <svg width="46" height="56" viewBox="0 0 46 56" class="dd-glyph-svg dd-glyph-elevated" aria-hidden="true">
+                    <path d="M41.0009,12H5A5,5,0,0,0,.0009,17L0,39a5,5,0,0,0,4.9991,5H41.0009A5,5,0,0,0,46,39V17A5,5,0,0,0,41.0009,12ZM5,14H41.0009A3.0032,3.0032,0,0,1,44,17l.0005,2H2l.0005-2A3.0032,3.0032,0,0,1,5,14ZM41.0009,42H4.9991a3.0032,3.0032,0,0,1-3-3V22.9577H44V39A3.0032,3.0032,0,0,1,41.0009,42ZM15,31.5737v3.8526A1.5541,1.5541,0,0,1,13.4663,37H8.5338A1.5542,1.5542,0,0,1,7,35.4263V31.5737A1.5542,1.5542,0,0,1,8.5338,30h4.9325A1.5541,1.5541,0,0,1,15,31.5737Z"></path>
+                </svg>
+                <h2>Opciones para <span>pagar a plazos.</span> Elige la que mejor te venga.Nota a pie de página</h2>
+            </div>
+            <div id="content3-list2">
+                <svg width="40" height="56" viewBox="0 0 40 56" class="dd-glyph-svg dd-glyph-elevated" aria-hidden="true">
+                    <path d="m0 0h40v56h-40z" fill="none"></path>
+                    <path d="m38 29.0205v9.9795c0 3.8594-3.1403 7-6.9996 7h-22c-3.8594 0-7-3.1406-7-7v-4.75h-1.2514c-.7087 0-.8958-.4824-.502-1.0337l2.2051-3.1304c.315-.4529.7875-.443 1.1025 0l2.2051 3.1403c.3839.5414.1969 1.0238-.5021 1.0238h-1.2576v4.75c0 2.7568 2.2435 5 5.0004 5h22c2.7568 0 5-2.2432 5-5v-9.9795c0-.5527.4473-1 1-1s.9996.4473.9996 1zm1.251-7.2705h-1.251v-4.75c0-3.8594-3.1403-7-6.9996-7h-22c-3.8594 0-7 3.1406-7 7v9.9795c0 .5527.4473 1 1 1s.9996-.4473.9996-1v-9.9795c0-2.7568 2.2435-5 5.0004-5h22c2.7568 0 5 2.2432 5 5v4.75h-1.258c-.6989 0-.886.4823-.502 1.0237l2.2051 3.1404c.315.4429.7875.4529 1.1025 0l2.2051-3.1305c.3937-.5513.2067-1.0336-.5021-1.0336zm-13.8013 1.6872c.2991-.2918.7214-.4372 1.2668-.4372h3.569c.5396 0 .9599.1454 1.261.4372.303.2918.4536.7004.4536 1.225v8.6845c0 .5246-.1486.9313-.4477 1.2201s-.7214.4332-1.2668.4332h-3.569c-.5454 0-.9677-.1444-1.2668-.4332s-.4496-.6955-.4496-1.2201v-8.6845c0-.5246.1505-.9333.4496-1.225zm.7038 9.7945c0 .2004.0469.3517.1447.4548.0958.1032.2424.1552.436.1552h3.524c.1935 0 .3402-.0521.4398-.1552.0997-.1032.1506-.2544.1506-.4548v-8.4546c0-.2004-.0508-.3537-.1506-.4598-.0997-.1061-.2463-.1591-.4398-.1591h-3.524c-.1935 0-.3402.053-.436.1591-.0977.1061-.1447.2593-.1447.4598zm2.3488-13.2317h-16.6196c-.5806 0-1.0401.1572-1.3773.4725s-.5054.783-.5054 1.4019v11.1256h-1.2559c-.2757 0-.5103.0824-.7038.2798s-.2903.4352-.2903.7122.0968.5138.2903.7122c.1935.1965.4281.2957.7038.2957h15.1703c-.2581-.4126-.393-.8841-.4047-1.4146 0-.1002-.002-.2004-.0059-.3006-.002-.1002-.0039-.1846-.0039-.2848h-12v-10.6512c0-.2829.0704-.4951.2111-.6366s.3519-.2122.6334-.2122h17.7686c-.0352-.4715-.1916-.9037-.4672-1.1424s-.6569-.3576-1.1437-.3576zm-.6924 5.4067h1.3802c.1114 0 .2072-.0403.2854-.1199.0801-.0796.1193-.1778.1193-.2957 0-.112-.0391-.2063-.1193-.2829-.0782-.0766-.174-.1149-.2854-.1149h-1.3802c-.1173 0-.215.0383-.2913.1149s-.1134.1709-.1134.2829c0 .1179.0371.2161.1134.2957s.174.1199.2913.1199zm-.4179 7.8983h2.2c.1887 0 .284-.1032.284-.3095 0-.0884-.027-.1611-.0809-.2171s-.1222-.0835-.2031-.0835h-2.2c-.0809 0-.1456.0275-.1941.0835s-.0719.1287-.0719.2171c0 .2063.0881.3095.266.3095z"></path>
+                  </svg>
+                <h2><span>Renueva tu dispositivo</span> y llévate un descuento para uno nuevo.1</h2>
+            </div>
+            <div id="content3-list3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" class="as-svgicon as-svgicon-applelogo as-svgicon-elevated" aria-hidden="true" role="img">
+                    <g>
+                      <rect width="29" height="56" fill="none"></rect>
+                      <defs id="defs2334">
+                        <linearGradient id="linearGradient2904">
+                          <stop style="stop-color:#f8ab5e;stop-opacity:1" offset="0" id="stop2900"></stop>
+                          <stop style="stop-color:#f3695f;stop-opacity:1" offset="1" id="stop2902"></stop>
+                        </linearGradient>
+                        <linearGradient xlink:href="#linearGradient2904" id="linearGradient2906" x1="0.16650136" y1="23.976196" x2="15.151624" y2="23.976196" gradientUnits="userSpaceOnUse"></linearGradient>
+                      </defs>
+                      <g>
+                        <path id="path2324" d="m 14.9,14.43 a 2.581,2.581 0 0 1 -0.472,-0.045 3.083,3.083 0 0 1 -0.067,-0.629 7.531,7.531 0 0 1 1.909,-4.694 7.76,7.76 0 0 1 5.1,-2.628 3.329,3.329 0 0 1 0.067,0.7 7.745,7.745 0 0 1 -1.837,4.825 6.728,6.728 0 0 1 -4.7,2.471 z m 12.807,3.818 a 7.851,7.851 0 0 0 -3.751,6.6 7.64,7.64 0 0 0 4.649,7.008 18.257,18.257 0 0 1 -2.381,4.919 c -1.482,2.134 -3.032,4.268 -5.391,4.268 -2.359,0 -2.965,-1.37 -5.683,-1.37 -2.65,0 -3.594,1.415 -5.75,1.415 -2.156,0 -3.661,-1.977 -5.391,-4.4 A 21.279,21.279 0 0 1 0.395,25.211 c 0,-6.738 4.38,-10.31 8.692,-10.31 2.291,0 4.2,1.5 5.638,1.5 1.37,0 3.5,-1.595 6.109,-1.595 a 8.172,8.172 0 0 1 6.873,3.442 z" style="fill-opacity:1;fill:url(#linearGradient2906)"></path>  
+                      </g>
+                    </g>
+                </svg>
+                <h2><span>Personaliza</span> tu Mac y diseña tu propio Apple Watch.</h2>
+            </div>
+            <div id="content3-list4">
+                <svg width="36" height="56" viewBox="0 0 36 56" class="dd-glyph-svg dd-glyph-elevated" aria-hidden="true">
+                    <path d="m.0072.0046h35.9856v55.9908h-35.9856z" fill="none"></path>
+                    <path d="m29 12c2.757 0 5 2.243 5 5v22c0 2.757-2.243 5-5 5h-22c-2.757 0-5-2.243-5-5v-22c0-2.757 2.243-5 5-5zm0-2h-22c-3.866 0-7 3.134-7 7v22c0 3.866 3.134 7 7 7h22c3.866 0 7-3.134 7-7v-22c0-3.866-3.134-7-7-7zm-3.5 11h-2.5378c-.1951-2.46-2.3293-4.4048-4.9622-4.4048s-4.7672 1.9448-4.9622 4.4048h-2.5378c-1.3807 0-2.5 1.1193-2.5 2.5v14c0 1.3807 1.1193 2.5 2.5 2.5h15c1.3807 0 2.5-1.1193 2.5-2.5v-14c0-1.3807-1.1193-2.5-2.5-2.5zm-3.9586 10.849c-.1356.3135-.2965.6016-.4744.8727-.2457.3643-.449.6185-.61.754-.2373.2288-.4999.3474-.7795.3559-.1948 0-.4406-.0593-.7202-.1779-.2796-.1187-.5422-.1779-.7794-.1779-.2457 0-.5084.0593-.7964.1779s-.5168.1779-.6947.1863c-.2627.0085-.5253-.1101-.7964-.3643-.1694-.1525-.3813-.4066-.6354-.7794-.2711-.3983-.4913-.8473-.6693-1.3726-.1863-.5591-.2796-1.1099-.2796-1.6351 0-.6016.1271-1.1183.3813-1.5589.1948-.3474.4659-.627.7964-.8303.3389-.2033.6947-.3051 1.0845-.3135.2118 0 .4913.0593.8387.1948.3389.1356.5591.2034.6608.2034.0762 0 .322-.0763.7371-.2372.3897-.144.7286-.2034.9997-.1779.7371.0593 1.2878.3558 1.6605.8981-.6608.4152-.9912.9913-.9827 1.7283.0084.5761.2118 1.059.6016 1.4318.1863.1779.3896.3135.61.4067-.0424.144-.1017.2795-.1526.4151zm-3.5584-5.1511c0-.4406.161-.8472.4915-1.2285.1694-.1949.3728-.3474.627-.4745.2457-.127.4829-.2033.7117-.2118.0085.0593.0085.1187.0085.1779 0 .449-.161.8812-.483 1.2708-.3897.466-.8387.6778-1.3471.6354-.0086-.0507-.0086-.11-.0086-.1693zm-3.8446-5.6979c.1945-1.8496 1.8414-3.3047 3.8616-3.3047s3.6671 1.4551 3.8616 3.3047z"></path>
+                  </svg>
+                <h2>Compra en la <span>app Apple Store</span> y disfruta de una <span>experiencia personalizada.</span></h2>
+            </div>
+            <div id="content3-list5">
+                <svg width="40" height="56" viewBox="0 0 40 56" class="dd-glyph-svg dd-glyph-elevated" aria-hidden="true">
+                    <path d="m0 0h40v56h-40z" fill="none"></path>
+                    <path d="m32.7812 29.6094a1.0221 1.0221 0 0 0 -1-.125 42.9866 42.9866 0 0 1 -5.76 1.3437 37.7 37.7 0 0 1 -6.01.4688 37.8947 37.8947 0 0 1 -6.0208-.4688 42.1134 42.1134 0 0 1 -5.75-1.3437 1.08 1.08 0 0 0 -1.0313.125.9492.9492 0 0 0 -.2812.9583 12.0862 12.0862 0 0 0 2.1875 5.6667 13.3019 13.3019 0 0 0 4.6446 4.0521 13.0763 13.0763 0 0 0 6.25 1.51 13.0332 13.0332 0 0 0 6.2292-1.51 13.3984 13.3984 0 0 0 4.6562-4.0521 11.8567 11.8567 0 0 0 2.1771-5.6667.9968.9968 0 0 0 -.2913-.9583zm-2.3124 4.4167a37.2669 37.2669 0 0 1 -5.1771 1.0939 38.5047 38.5047 0 0 1 -5.2813.3646 38.8064 38.8064 0 0 1 -5.2812-.3646 37.13 37.13 0 0 1 -5.198-1.0937 9.7 9.7 0 0 1 -1.0833-2.9167 43.2962 43.2962 0 0 0 5.6459 1.2292 39.8385 39.8385 0 0 0 5.9166.4375 39.9092 39.9092 0 0 0 5.9063-.4375 42.4138 42.4138 0 0 0 5.6354-1.2292 9.43 9.43 0 0 1 -1.0833 2.9165zm-17.8021-8.5834a2.8583 2.8583 0 0 1 0-3.5416 1.8441 1.8441 0 0 1 1.4271-.7084 1.9442 1.9442 0 0 1 1.4895.7084 2.7531 2.7531 0 0 1 -.01 3.5312 1.944 1.944 0 0 1 -1.4791.7188 1.8438 1.8438 0 0 1 -1.4275-.7084zm11.7812-.01a2.8064 2.8064 0 0 1 0-3.5312 1.8745 1.8745 0 0 1 1.4375-.7084 1.8935 1.8935 0 0 1 1.4583.7084 2.8207 2.8207 0 0 1 0 3.5416 1.8931 1.8931 0 0 1 -1.4583.7084 1.8644 1.8644 0 0 1 -1.4375-.7192zm-4.4479-14.7327a17.3 17.3 0 1 1 -17.3 17.3 17.32 17.32 0 0 1 17.3-17.3m0-2.2a19.5 19.5 0 1 0 19.5 19.5 19.5 19.5 0 0 0 -19.5-19.5z"></path>
+                </svg>
+                <h2>Hazlos tuyos. <span>Añade gratis un grabado con emojis, nombres y números.</span></h2>
+            </div>
+            <div id="content3-list6">
+                <svg width="49" height="56" viewBox="0 0 49 56" class="dd-glyph-svg dd-glyph-elevated" aria-hidden="true">
+                    <path d="m0 0h49v56h-49z" fill="none"></path>
+                    <path d="m47.8447 27.501-6.6758-7.1289c-.9111-.9619-1.9541-1.3721-3.4854-1.3721h-4.6836v-4c0-2.7614-2.2385-5-5-5h-22.9999c-2.7615 0-5 2.2386-5 5v21c0 2.7614 2.2385 5 5 5h1.1504c.2532 2.8719 2.6616 5.125 5.5996 5.125s5.3464-2.2531 5.5996-5.125h13.8008c.2532 2.8719 2.6616 5.125 5.5996 5.125s5.3464-2.2531 5.5996-5.125h2.6436c2.5469 0 4.0068-1.4092 4.0068-3.8657v-6.7515c0-1.0835-.4268-2.1396-1.1553-2.8818zm-32.5202 13.499c-.2463 1.7609-1.7468 3.125-3.5745 3.125s-3.3281-1.3641-3.5745-3.125c-.0232-.165-.0505-.3288-.0505-.5 0-.5364.1245-1.0415.3345-1.5.5725-1.2501 1.8281-2.125 3.2905-2.125s2.718.8749 3.2905 2.125c.21.4585.3345.9636.3345 1.5 0 .1712-.0273.335-.0505.5zm15.6755-2h-13.8335c-.6572-2.3773-2.8301-4.125-5.4165-4.125s-4.7593 1.7477-5.4165 4.125h-1.3335c-1.6543 0-3-1.3458-3-3v-21c0-1.6542 1.3457-3 3-3h23c1.6543 0 3 1.3458 3 3zm9.3245 2c-.2463 1.7609-1.7468 3.125-3.5745 3.125s-3.3281-1.3641-3.5745-3.125c-.0232-.165-.0505-.3288-.0505-.5 0-.5364.1245-1.0415.3345-1.5.5725-1.2501 1.8281-2.125 3.2905-2.125s2.718.8749 3.2905 2.125c.21.4585.3345.9636.3345 1.5 0 .1712-.0273.335-.0505.5zm6.6755-3.8657c0 1.3252-.5811 1.8657-2.0068 1.8657h-2.8267c-.6572-2.3773-2.8301-4.125-5.4165-4.125-1.4429 0-2.7544.5478-3.75 1.4407v-15.3157h4.6836c.9785 0 1.5107.1958 2.0303.7437l6.6875 7.1411c.375.3823.5986.9424.5986 1.498zm-3.3914-8.0216c.2444.2794.3914.493.3914.8873h-7.7773c-.75 0-1.2227-.4766-1.2227-1.2324v-5.7676h2.4131c.5703 0 .9944.23 1.3364.6244z"></path>
+                  </svg>
+                <h2>Disfruta de <span>entrega en dos horas</span> desde un Apple Store, entrega gratuita o recogida fácil.</h2>
+            </div>
+        </div>
+    </section>
+    <section id="content4">
+        <h2><span>Accesorios.</span> Básicos perfectos para tus dispositivos favoritos.</h2>
+        <div class="content4-list" style="overflow-x: scroll;">
+            <div id="content4-list1">
+                <h2>A la última.</h2>
+                <h4>Descubre nuevos colores y prestaciones para tus accesorios favoritos.</h4>
+            </div>
+            <div id="content4-list2">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX2D3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713841707336">
+                <h6>Nuevo</h6>
+                <h4>Apple Pencil Pro</h4>
+                <p>149,00€</p>
+            </div>
+            <div id="content4-list3">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWR53E?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713934300299">
+                <div class="color">
+                    <img src="img/color/MWR43DK_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2R3ref_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h6>Nuevo</h6>
+                <h4>Magic Keyboard para el iPad Pro de 13 pulgadas (M4)...</h4>
+                <p>399,00€</p>
+            </div>
+            <div id="content4-list4">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4U3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1693594248668">
+                <div class="color2">
+                    <img src="img/color/MT4L3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4U3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4J3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4Q3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4H3_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Funda de trenzado fino con MagSafe para el...</h4>
+                <p>69,00€</p>
+            </div>
+            <div id="content4-list5">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT263?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1699475074951">
+                <div class="color2">
+                    <img src="img/color/MT4L3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4U3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4J3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4Q3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT4H3_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Cartera de trenzado fino con MagSafe para el iPhone</h4>
+                <p>69,00€</p>
+            </div>
+            <div id="content4-list6">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MW4Q3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1707853692193">
+                <div class="color2">
+                    <img src="img/color/MW4Q3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MW4P3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT5H3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT593ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT5E3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT5F3_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Correa Loop deportiva menta suave (45 mm)</h4>
+                <p>49,00€</p>
+            </div>
+            <div id="content4-list7">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWND3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1708125477348">
+                <div class="color2">
+                    <img src="img/color/MWMR3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MWMP3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MWND3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2W3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT273_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MWN93_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Funda de silicona con MagSafe para el iPhone 15 - Azul claro</h4>
+                <p>59,00€</p>
+            </div>
+            <div id="content4-list8">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HRJ12?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1718750620493">
+                <div class="color2">
+                    <img src="img/color/HRJ22_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/HRJ12_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Funda EvoArt de Tech21 para los AirPods Max</h4>
+                <p>49,95€</p>
+            </div>
+            <div id="content4-list9">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWMW3ref?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1707791910829">
+                <div class="color2">
+                    <img src="img/color/MWMR3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MWMP3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MWND3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2W3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2N3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2R3ref_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>Correa deportiva amarillo solar (45 mm)  - Talla M/L</h4>
+                <p>49,00€</p>
+            </div>
+            <div id="content4-list10">
+                <h2>Descubre todos los accesorios</h2>
+            </div>
+        </div>
+    </section>
+    <section id="content5">
+        <h2><span>Alto y claro. </span> Opciones de sonido con una calidad excepcional.</h2>
+        <div class="content5-list" style="overflow-x: scroll;">
+            <div id="content5-list1">
+                <h2>Llévate seis meses gratis de Apple Music.</h2>
+                <h4>Al comprar un HomePod, unos AirPods o algunos productos Beats.⁺</h4>
+            </div>
+            <div id="content5-list2">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1694014871985">
+                <h6>Grabado gratuito</h6>
+                <h4>AirPods Pro (2.ª generación) con estuche de carga MagSafe</h4>
+                <p>279,00€</p>
+            </div>
+            <div id="content5-list3">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1670557210097">
+                <div class="color2">
+                    <img src="img/color/MWR43DK_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MT2R3ref_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>HomePod - Medianoche</h4>
+                <p>349,00€</p>
+            </div>
+            <div id="content5-list4">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1604021221000">
+                <div class="color2">
+                    <img src="img/color/airpods-max-select-spacegray-202011_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/airpods-max-select-pink-202011_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/airpods-max-select-green-202011_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/airpods-max-select-silver-202011_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/airpods-max-select-skyblue-202011_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h6>Grabado gratuito</h6>
+                <h4>AirPods Max - Plata</h4>
+                <p>579,00€</p>
+            </div>
+            <div id="content5-list5">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-yellow-202110?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1632925510000">
+                <div class="color2">
+                    <img src="img/color/homepod-mini-select-spacegray-202110_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/homepod-mini-select-blue-202110_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/homepod-mini-select-yellow-202110_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/homepod-mini-select-white-202110_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/homepod-mini-select-orange-202110_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h4>HomePod Mini - Amarillo</h4>
+                <p>109,00€</p>
+            </div>
+            <div id="content5-list6">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUW33?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1712255584823">
+                <div class="color2">
+                    <img src="img/color/MT2R3ref_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MUW43_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MUW33_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h6>Nuevo</h6>
+                <h4>Auriculares abiertos inalámbricos Beats Solo 4</h4>
+                <p>229,95€</p>
+            </div>
+            <div id="content5-list7">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1632861342000">
+                <h6>Grabado gratuito</h6>
+                <h4>AirPods (3.ª generación) con estuche de carga Lightning</h4>
+                <p>199,00€</p>
+            </div>
+            <div id="content5-list8">
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUW03?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713296134821">
+                <div class="color2">
+                    <img src="img/color/MUW23_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MUVY3_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MUW43_SW_COLOR.jpeg" width="12px">
+                    <img src="img/color/MUW03_SW_COLOR.jpeg" width="12px">
+                </div>
+                <h6>Nuevo</h6>
+                <h4>Beats Solo Buds - Auriculares de tapón True Wireless - Rojo</h4>
+                <p>89,95€</p>
+            </div>
+        </div>
+    </section>
+    <section id="content6">
+        <h2><span>La experiencia Apple. </span> Haz más con los productos y servicios.</h2>
+        <div class="content6-list" style="overflow-x: scroll;">
+            <div id="content6-list1">
+                <h5>TODAY AT APPLE</h5>
+                <h2>Apúntate al Campamento de Apple.</h2>
+                <p>Crea una historia sobre la generosidad en el iPad. Para participantes de 6 a 10 años.</p>
+            </div>
+            <div id="content6-list2">
+                <h5>APPLE TV+</h5>
+                <h2>Consigue tres meses gratis de Apple TV+ al comprar un dispositivo Apple.°</h2>
+            </div>
+            <div id="content6-list3">
+                <h2>Cinco servicios de Apple. Una sola suscripción.</h2>
+            </div>
+            <div id="content6-list4">
+                <h2>Te cubrimos las espaldas.</h2>
+                <p>AppleCare+ ahora incluye un número ilimitado de reparaciones por daños accidentales.</p>
+            </div>
+            <div id="content6-list5">
+                <h2>Descubre todas las formas de usar Apple Pay.</h2>
+            </div>
+            <div id="content6-list6">
+                <h5>DOMÓTICA</h5>
+                <h2>Descubre cómo una app puede controlar tu⁠ hogar.</h2>
+            </div>
+        </div>
+    </section>
+    <section id="content7">
+        <h2><span>Tiendas especiales. </span>Descuentos exclusivos para empresas, colegios y más.</h2>
+        <div class="content7-list" style="overflow-x: scroll;">
+            <div id="content7-list1">
+                <h5>EDUCACIÓN</h5>
+                <h2>Compra un nuevo Mac o iPad con los descuentos para educación.</h2>
+            </div>
+            <div id="content7-list2">
+                <h5>EMPRESAS</h5>
+                <h2>Sea cual sea el tamaño de tu empresa, queremos trabajar contigo.</h2>
+            </div>
+            <div id="content7-list3">
+                <h5>REACONDICIONADO CERTIFICADO</h5>
+                <h2>Compra productos reacondicionados con un año de garantía.</h2>
+            </div>
+        </div>
+    </section>
+    <section id="content8">
+        <h2>Enlaces rápidos</h2>
+        <ul>
+            <li><button><a href="https://secure.store.apple.com/es/shop/order/list">Estado del pedido</a></button></li>
+            <li><button><a href="https://www.apple.com/es/shop/help">Ayuda para comprar</a></button></li>
+            <li><button><a href="https://www.apple.com/es/shop/help/returns_refund">Devoluciones</a></button></li>
+            <li><button><a href="https://www.apple.com/es/shop/yoursaves">Tus favoritos</a></button></li>
+        </ul>
+    </section>
+    <footer>
+        <p class="footer-text">◊◊◊ Los Compradores Válidos recibirán una Apple Gift Card al adquirir un Mac o iPad eligibles en un Establecimiento Válido. Cada Comprador Válido solo puede optar a un Producto Promocional por cada Mac o iPad eligible. Oferta sujeta a disponibilidad. Hasta fin de existencias. Puedes consultar todas las condiciones <a href="https://www.apple.com/es/shop/browse/home/back_to_school/terms_conditions">aquí.</a>
+            <br><br>
+            °°° Los descuentos promocionales de Apple para el sector educativo de AppleCare+ están disponibles solo para productos válidos que se adquieran al mismo tiempo que AppleCare+ en una tienda Apple Store u online en el Apple Store para Educación durante el periodo promocional. Apple ofrece descuentos para el sector educativo en AppleCare+ diferentes a este precio promocional durante todo el año en determinados productos si se compran durante los 60 días posteriores a la adquisición de tu producto Apple; la selección de productos puede variar fuera del periodo promocional. Los precios promocionales de Apple para el sector educativo de AppleCare+ no se pueden combinar con precios no promocionales de Apple para el sector educativo. Para más información acerca de la cobertura de AppleCare+, consulta los términos y condiciones <a href="https://www.apple.com/es/legal/sales-support/applecare/applecareplus/es/">apple.com/es/legal/sales-support/applecare/applecareplus/es/.</a>
+            <br><br>
+            Los precios promocionales de AppleCare+ para el sector educativo se aplican únicamente a las compras de AppleCare+ de dos años para el iPad o de tres años para el Mac realizadas con un único pago, pero no a las pólizas AppleCare+ de pago periódico.
+            <br><br>
+            Los descuentos de Apple para el sector educativo están disponibles para estudiantes inscritos o admitidos en una universidad, sus padres y personal docente o administrativo de cualquier centro educativo. Número limitado de unidades.
+            <br><br>
+            **** Importe mínimo de financiación 299 €. <strong>Ejemplo de financiación: 1.219 € en 12 cuotas. 11 cuotas de 110,00 € y una última cuota de 109,95 €. Total intereses 100,95 €. Coste total del crédito 100,95 €. Precio de adquisición al contado 1.219 €. Importe total adeudado 1.319,95 €. Precio total a plazos 1.319,95 €. 14.95 % TIN. <em>16,02 % TAE.</em> Ejemplo de financiación: 1.219 € en 24 cuotas. 23 cuotas de 59,08 € y una última cuota de 58,98 €. Total Intereses 198,82 €. Coste total del crédito 198,82 €. Precio de adquisición al contado 1.219 €. Importe total adeudado 1.417,82 €. Precio total a plazos 1.417,82 €. 14,95 % TIN. <em>16,02 % TAE.</em> Ejemplo de financiación: 1.219 € en 36 cuotas. 35 cuotas de 42,23 € y una última cuota de 42,10 €. Total Intereses 301,15 €. Coste total del crédito 301,15 €. Precio de adquisición al contado 1.219 €. Importe total adeudado 1.520,15 €. Precio total a plazos 1.520,15 €. 14,95 % TIN. <em>16,02 % TAE.</em></strong> Sistema de amortización francés. Oferta sujeta a la previa autorización de Banco Cetelem S.A.U. tras el estudio de la documentación aportada y la firma del contrato. Validez de la oferta hasta el 25/09/2024. Las condiciones de financiación para cualquier otro producto se pueden obtener aquí: <a href="https://www.cetelem.es/prestamo/calculadora-apple-promo/">Consulta los términos y condiciones.</a> Las compras en el Apple Store para Educación o Empresas están excluidas de la oferta. Consulta las condiciones en el Apple Store.
+            <br><br>
+            ⁺ Solo para nuevas suscripciones. 10,99 €/mes después de la prueba gratuita. La oferta está disponible solo por tiempo limitado para nuevas suscripciones a Apple Music con la compra de un dispositivo nuevo válido. Para acogerte a la oferta de dispositivos de audio válidos, debes conectarlos o enlazarlos a un dispositivo Apple que tenga instalada la última versión de iOS o iPadOS. Para acogerte a la oferta del Apple Watch, debes conectarlo o enlazarlo a un iPhone que tenga instalada la última versión de iOS. La oferta tiene validez durante tres meses desde que se activa un dispositivo válido. Solo una oferta por ID de Apple, independientemente del número de dispositivos válidos que compres. Si no se cancela, la suscripción se renueva automáticamente. Sujeto a restricciones y otras <a href="https://www.apple.com/es/promo">condiciones.</a>
+            <br><br>
+            ° Oferta de Apple TV+ solo para suscripciones nuevas y suscripciones reactivadas válidas. 9,99 €/mes después del periodo de prueba gratuito. Solo una oferta por ID de Apple y por grupo de En Familia, independientemente del número de dispositivos comprados. Esta oferta no está disponible si tu familia o tú habéis aceptado anteriormente la oferta de tres meses o un año gratis de Apple TV+. La oferta tiene validez durante tres meses desde que se activa un dispositivo válido. Si no se cancela, la suscripción se renueva automáticamente. Sujeto a restricciones y otras <a href="https://www.apple.com/es/promo">condiciones.</a>
+            <br><br>
+            1. Los descuentos dependen del estado, año y configuración del dispositivo válido que entregues. No todos los dispositivos pueden acogerse a esta oferta. Para poder cambiar tu dispositivo por un descuento o una Apple Gift Card, tienes que ser mayor de edad. El valor de renovación se puede aplicar a la compra de un dispositivo válido nuevo o añadirse a una Apple Gift Card. El valor real atribuido está sujeto a la recepción de un dispositivo válido que coincida con la descripción proporcionada durante la estimación. Pueden aplicarse impuestos locales al importe completo de la compra de un dispositivo nuevo. La entrega en tienda requiere la presentación de un documento de identidad válido (la legislación vigente puede exigir que se guarde esta información). Es posible que la oferta no esté disponible en todas las tiendas, y puede ser diferente si la renovación se hace en una tienda u online. Algunas tiendas pueden exigir más requisitos. Apple y sus socios se reservan el derecho a rechazar, cancelar o limitar la cantidad de cualquier transacción de renovación por cualquier motivo. Para obtener más información sobre los dispositivos válidos y su reciclaje, consulta a nuestro socio. Puede haber restricciones y limitaciones.
+            <br><br>
+            La oferta con pago mensual se basa en una financiación a 24 meses al <strong> 0 % TAE.</strong> Financiación ofrecida por Banco Cetelem S.A.U. <strong>Ejemplo de financiación para un iPhone 15 Pro sin la entrega de tu antiguo dispositivo: Precio de compra de 1.219 € (modelo de 128GB ). 23 cuotas de 50,79 € y una última cuota de 50,83 €. Precio de adquisición al contado de 1.219 €. Importe total adeudado de 1.219€. Precio total a plazos de 1.219 €. Ejemplo de financiación para un iPhone 15 sin la entrega de tu antiguo dispositivo: Precio de compra de 959 € (modelo de 128 GB). 23 cuotas de 39,96 € y una última cuota de 39,92 €. Precio de adquisición al contado de 959 €. Importe total adeudado de 959 €. Precio total a plazos de 959 €. </strong>Las condiciones de financiación para cualquier otro producto se pueden obtener aquí: <a href="https://www.cetelem.es/prestamo/calculadora-apple/">https://www.cetelem.es/prestamo/calculadora-apple/</a>
+            <br><br>
+            0 % TIN y <strong> 0% TAE . Intereses totales de 0 €. Coste total del crédito de 0 €.</strong> Importe mínimo de 240 €. Sin comisión de formalización. Oferta sujeta a la previa autorización de Banco Cetelem S.A.U. tras el estudio de la documentación aportada y la firma del contrato. Las compras que se hagan en el Apple Store quedan excluidas.
+            <br><br>
+            Los descuentos dependen del estado, año y configuración del dispositivo válido que entregues. No todos los dispositivos pueden acogerse a esta oferta. Para poder cambiar tu dispositivo por un descuento o una Apple Gift Card, tienes que ser mayor de edad. El valor de renovación se puede aplicar a la compra de un dispositivo válido nuevo o añadirse a una Apple Gift Card. El valor real atribuido está sujeto a la recepción de un dispositivo válido que coincida con la descripción proporcionada durante la estimación. Pueden aplicarse impuestos locales al importe completo de la compra de un dispositivo nuevo. La entrega en tienda requiere la presentación de un documento de identidad válido (la legislación vigente puede exigir que se guarde esta información). Es posible que la oferta no esté disponible en todas las tiendas, y puede ser diferente si la renovación se hace en una tienda u online. Algunas tiendas pueden exigir más requisitos. Apple y sus socios se reservan el derecho a rechazar, cancelar o limitar la cantidad de cualquier transacción de renovación por cualquier motivo. Para obtener más información sobre los dispositivos válidos y su reciclaje, consulta a nuestro socio. Puede haber restricciones y limitaciones.
+            <br><br>
+            2. Descuentos especiales para los clientes que cumplan las condiciones. Para informarte sobre cómo cumplir los requisitos para acceder a los descuentos, habla con un Especialista de Apple en una tienda o llámanos al 900 150 503.
+            <br><br>
+            3. Entrega en dos horas por 8 € en una selección de productos Apple en algunas áreas metropolitanas. La oferta no está disponible para los Mac personalizados, los productos con grabado y algunos pedidos concretos, como los pagados con financiación o mediante transferencia bancaria. Las fechas y horas de entrega varían en función de tu dirección de envío, la disponibilidad del producto y la hora a la que hagas el pedido. <a href="https://www.apple.com/es/retail">Busca una tienda</a> para consultar su horario de apertura o comprueba la entrega estimada en la página de pago. Tendrás que firmar para la entrega. Los repartidores te pueden pedir una confirmación verbal de la recepción desde una distancia de seguridad para cumplir con el requisito de la firma.
+            <br><br>
+            APPLE DISTRIBUTION INTERNATIONAL LTD. es productor de pilas y acumuladores con n.º RII-PYA 919, adherido a ECOPILAS; productor de AEE con n.º RAEE 4047, adherido a ECOASIMELEC; y productor de envases con n.º ENV/2023/3984, adherido a ECOEMBES.⁺ Solo para nuevas suscripciones. 10,99 €/mes después de la prueba gratuita. La oferta está disponible solo por tiempo limitado para nuevas suscripciones a Apple Music con la compra de un dispositivo nuevo válido. Para acogerte a la oferta de dispositivos de audio válidos, debes conectarlos o enlazarlos a un dispositivo Apple que tenga instalada la última versión de iOS o iPadOS. Para acogerte a la oferta del Apple Watch, debes conectarlo o enlazarlo a un iPhone que tenga instalada la última versión de iOS. La oferta tiene validez durante tres meses desde que se activa un dispositivo válido. Solo una oferta por ID de Apple, independientemente del número de dispositivos válidos que compres. Si no se cancela, la suscripción se renueva automáticamente. Sujeto a restricciones y otras <a href="https://www.apple.com/es/promo">condiciones.</a>
+            Usamos tu ubicación para mostrarte las opciones de entrega más rápida. Encontramos tu ubicación usando tu dirección IP o porque la indicaste durante una visita anterior a Apple.</p>
+            <hr>
+            <br>
+        <div class="footer-logo">
+            <img src="img/apple_logo.svg" width="12px" height="15px">
+            <p> > </p> 
+            <p>Apple Online Store</p>
+        </div>
+        <nav class="footer-links">
+            <div class="footer-links-1">
+                <ul>
+                    <li>Ver y comprar</li>
+                    <li>Tienda</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                    <li>AirPods</li>
+                    <li>TV y Casa</li>
+                    <li>AirTag</li>
+                    <li>Accesorios</li>
+                    <li>Tarjetas de regalo</li>
+                    </ul>
+                <ul>
+                    <li>Cartera de Apple</li>
+                    <li>Apple Pay</li>
+                </ul>
+            </div>
+            <div class="footer-links-2">
+                <ul>
+                    <li>Cuentas</li>
+                    <li>Gestionar ID de Apple</li>
+                    <li>Cuenta del Apple Store</li>
+                    <li>iCloud.com</li>
+                </ul>
+                <ul>
+                    <li>Entretenimiento</li>
+                    <li>Apple One</li>
+                    <li>Apple TV+</li>
+                    <li>Apple Music</li>
+                    <li>Apple Arcade</li>
+                    <li>Apple Fitness+</li>
+                    <li>Apple Podcast</li>
+                    <li>Apple Books</li>
+                    <li>App Store</li>
+                </ul>
+            </div>
+            <div class="footer-links-3">
+                <ul>
+                    <li>Apple Store</li>
+                    <li>Encontrar una tienda</li>
+                    <li>Genius Bar</li>
+                    <li>Today at Apple</li>
+                    <li>Campamento de Apple</li>
+                    <li>App Apple Store</li>
+                    <li>Reacondicionado y certificado</li>
+                    <li>Apple Trade In</li>
+                    <li>Financiación</li>
+                    <li>Estado del pedido</li>
+                    <li>Ayuda para comprar</li>
+                </ul>
+            </div>
+            <div class="footer-links-4">
+                <ul>
+                    <li>Empresas</li>
+                    <li>Apple y las empresas</li>
+                    <li>Compras de la empresa</li>
+                </ul>
+                <ul>
+                    <li>Educación</li>
+                    <li>Apple en la educación</li>
+                    <li>Compras para la universidad</li>
+                </ul>
+                <ul>
+                    <li>Salud</li>
+                    <li>Apple en el sector sanitario</li>
+                    <li>Salud en el Apple Watch</li>
+                </ul>
+            </div>
+            <div class="footer-links-5">
+                <ul>
+                    <li>Valores de Apple</li>
+                    <li>Accesibilidad</li>
+                    <li>Medio ambiente</li>
+                    <li>Privacidad</li>
+                    <li>Cadena de suministro</li>
+                </ul>
+                <ul>
+                    <li>Cadena de Apple</li>
+                    <li>Newsroom</li>
+                    <li>Directivos de Apple</li>
+                    <li>Oportunidades laborales</li>
+                    <li>Garantía</li>
+                    <li>Inversores</li>
+                    <li>Ética y conducta</li>
+                    <li>Eventos</li>
+                    <li>Creación de empleo en Europa</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footer-last">
+            <p>Más formas de comprar: <a href="https://www.apple.com/es/retail">encuentra un Apple Store</a> o <a href="https://locate.apple.com/es/es">un distribuidor</a> cerca de ti. O llama al 900 150 503.</p>
+            <hr>
+            <ul class="footer-last-1">
+                <li>Copyright © 2024 Apple Inc. Reservados todos los derechos.</li>
+                <li>España</li>
+            </ul>
+            <ul class="footer-last-2">
+                <li>Política de privacidad</li>
+                <li>|</li>
+                <li>Uso de cookies</li>
+                <li>|</li>
+                <li>Condiciones de uso</li>
+                <li>|</li>
+                <li>Ventas y reembolsos</li>
+                <li>|</li>
+                <li>Avisos legales</li>
+                <li>|</li>
+                <li>Mapa del sitio</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
